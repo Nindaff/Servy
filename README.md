@@ -33,12 +33,11 @@ Make your cwd into your server root in one command!
   ```sh
   $ servy -i default.html
   ```
-  Servy by default will look for `index.html` unless specified.
 ### Force no caching
   ```sh
   $ servy -nc 
   ```
-  Servy doesn't actually cache any content in memory, but you can force Servy to send all files with a spoofed modification time so that the browser will not cache.
+  Servy doesn't actually cache any content in memory, but you can force Servy to send all files with a spoofed modification time so that the browser will not respond with a previously cached resource.
   By default all files are sent with a spoofed modtime the first time being served on a session.
 
 ## Note
