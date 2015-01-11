@@ -13,6 +13,11 @@ Make your cwd into your server root in one command!
   ```sh
   $ sudo chmod +x servy && sudo mv servy /usr/local/bin
   ```
+  Note if you download the `servy_mac` binary you will want to run this command instead
+  ```sh
+  $ sudo chmod +x servy_mac && sudo mv servy_mac /usr/local/bin/servy
+  ```
+
 ## Usage
 ### Set the server root.
   ```sh
