@@ -41,4 +41,4 @@ Make your cwd into your server root in one command!
   By default all files are sent with a spoofed modtime the first time being served on a session.
 
 ## Note
-  static server only accepts GET requests, all other methods will recieve a 405 response status
+  Servy only accepts GET requests, all other methods will recieve a 405 response status
